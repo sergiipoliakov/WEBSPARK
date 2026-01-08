@@ -2,11 +2,12 @@ import SvgHeart from '@/components/IconLibrary/SvgHeart';
 import SvgComment from '@/components/IconLibrary/SvgComment';
 import styles from './index.module.sass'
 import type { Stats } from '@/types/data';
+import type { IView } from '@/types/view.types';
 
 interface IProps {
   preview?: string;
   title?: string;
-  view?: string;
+  view?: IView;
   stats: Stats;
   statsToday: Stats
 }

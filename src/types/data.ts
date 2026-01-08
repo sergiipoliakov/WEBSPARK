@@ -13,8 +13,6 @@ export interface Stats {
   comments: number
 }
 
-
-
 export interface FeedItem {
   id: number
   image: ImageData
